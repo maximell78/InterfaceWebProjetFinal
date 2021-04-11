@@ -1,0 +1,360 @@
+/*style.css*/
+/*Programmé par : Maxime Lacroix-Lemire*/
+/*Dernière Mise À  Jour : 2021/03/08*/
+
+/* Couleur test */
+.bleuPale{
+    background-color: #9BD3FC;
+    height: 400px;
+    margin: auto;
+}
+
+.bleu{
+    background-color: blue;
+    height: 400px;
+    margin: auto;
+}
+
+.rouge{
+    background-color: red;
+    height: 400px;
+    margin: auto;
+}
+
+.vert{
+    background-color: green;
+    height: 400px;
+    margin: auto;
+}
+
+.violet{
+    background-color: violet;
+    height: 400px;
+    margin: auto;
+}
+
+.jaune{
+    background-color: yellow;
+    opacity: 0.5;
+    padding: 15px;
+}
+
+.blanc{
+    color: white;
+}
+
+.blue{
+    color: blue;
+}
+
+/* CLASS */ 
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.8);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+  }
+  
+  .card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
+
+.parallax {
+    background-image: url(../media/wood.jpg);
+    /* L’hauteur du Parallax */
+    height: 500px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url(../media/etoile.jpg);
+    /* L’hauteur du Parallax */
+    height: 250px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.navbarbg{
+    background-color: rgba(0, 0, 0, 0.88);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textColor{
+    color: white;
+}
+
+.bgBlancs{
+    background-color: white;
+}
+
+.fa-facebook:hover{
+    color: white;
+}
+
+.bgBase{
+    background-image: url(../media/Baniere5.png);
+    padding: 18%;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+.img-pod{
+    width: 50%;
+    height: auto;
+}
+
+.pt-12 {
+    padding-top: 12rem !important;
+  }
+
+.fabLogo{
+    width: 200px;
+    height: auto;
+}
+
+.tupLogo{
+    width: 200px;
+    height: auto;
+}
+
+.fdmLogo{
+    width: 300px;
+    height: auto;
+}
+
+.bdmLogo{
+    width: 250px;
+    height: auto;
+}
+
+.myFont{
+    font-family: myFont;
+    font-size: 3rem;
+}
+
+/* ID */
+
+#logo{
+    max-width: 10%;
+    height: auto;
+}
+
+#inputEmail{
+    width: 25rem;
+}
+
+#critique{
+    background-image: url(../media/critiques.png);
+    padding: 15%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #272522;
+}
+
+#fdmBG{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(200,0,10,1) 100%);
+}
+
+#fabBG{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(5,200,0,1) 100%);
+}
+
+#tupBG{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(189,200,0,1) 100%);
+}
+
+#bdmBG{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(200,131,0,1) 100%);
+}
+
+/* RÉSEAUX SOCIAUX */
+
+.fa-facebook{
+    color: #3b5998;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.fa-instagram-square {
+    color: transparent;
+    background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  .fa-youtube-square {
+    color: #bb0000;
+    background-color: white;
+}
+
+/* Bouton Stylisé */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:900i');
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.cta {
+    display: flex;
+    padding: 10px 45px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: white;
+    background: #6225E6;
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    transform: skewX(-15deg);
+}
+
+.cta:focus {
+   outline: none; 
+}
+
+.cta:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 0 #FBC638;
+}
+
+.cta span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 0px;
+}
+
+.cta:hover  span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 45px;
+}
+
+  span {
+    transform: skewX(15deg) 
+  }
+
+  span:nth-child(2) {
+    width: 20px;
+    margin-left: 30px;
+    position: relative;
+    top: 12%;
+  }
+  
+/**************SVG****************/
+
+path.one {
+    transition: 0.4s;
+    transform: translateX(-60%);
+}
+
+path.two {
+    transition: 0.5s;
+    transform: translateX(-30%);
+}
+
+.cta:hover path.three {
+    animation: color_anim 1s infinite 0.2s;
+}
+
+.cta:hover path.one {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.6s;
+}
+
+.cta:hover path.two {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.4s;
+}
+
+.img1{
+    width: 50%;
+    height: auto;
+}
+
+/* SVG animations */
+
+@keyframes color_anim {
+    0% {
+        fill: white;
+    }
+    50% {
+        fill: #FBC638;
+    }
+    100% {
+        fill: white;
+    }
+}
+
+/* Media Query */
+
+@media screen and (max-width: 768px) {
+    .bgBase{
+        background-image: url(../media/Baniere3.png);
+    }    
+}
+
+@media screen and (max-width: 576px) {
+    .bgBase{
+    background-image: url(../media/Baniere2.png);
+    }
+}
+
+@media screen and (max-width: 576px){
+    img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .parallax2{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 576px){
+    p{
+        text-align: center;
+    }
+}
+
+/* Font */
+
+@font-face {
+    font-family: myFont;
+    src: url(../font/ShadowsIntoLight-Regular.ttf);
+}
+
+p{
+    text-align: justify;
+}

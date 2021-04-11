@@ -1,0 +1,120 @@
+<!-- contact.html -->
+<!-- Programmé par : Maxime Lacroix-Lemire -->
+<!-- Dernière Mise À  Jour :  2021/04/10 -->
+
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Final</title>
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="icon" type="image/png" href="media/Logo.ico">
+</head>
+<body>
+<!--NavBar-->
+<header>
+  <div class="navbarbg">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <img class="img-fluid" src="media/Logo3.png" alt="Logo" id="logo" />
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-socks blanc"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link text-warning" href="index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="critiques.html"
+              >Les Critiques à Chris</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="bieres.html"
+              >Nos Dégustations « Alcoolo »</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+<section>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-center">
+          Vos suggestions / commentaires
+        </h1>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 text-center">
+    <form action="merci.html">
+      <div class="form-group">
+          <label for="inputName">Entrez votre nom :</label>
+          <input type="text" id="inputName" placeholder="Doe" required>
+      </div>
+      <div class="form-group">
+          <label for="inputPrenom">Entrez votre nom de famille :</label>
+          <input type="text" id="inputPrenom" placeholder="John" required>
+      </div>
+      <div>
+        <input type="radio" name="radio" id="Homme" checked >
+        <label for="homme" class="mr-3">Homme</label>
+        <input type="radio" name="radio" id="Femme">
+        <label for="femme" class="mr-3">Femme</label>
+        <input type="radio" name="radio" id="attend">
+        <label for="autres">Autre</label>
+    </div>
+      <div class="form-group pt-3">
+          <label for="deroulant">Sujet :</label>
+          <select name="deroulant" id="deroulant">
+              <option selected>Choisir une matière</option>
+              <option>Critiques</option>
+              <option>Suggestions de bières</option>
+              <option>Suggestions diverses</option>
+              <option>Commentaire général</option>
+          </select>
+      </div>
+      <div>
+        <p class="text-center">Vos commentaires / suggestions :</p>
+        <textarea name="lesCommentaires" id="lesCommentaires" cols="50" rows="10"></textarea>
+      </div>
+      <div class="pt-4">
+        <button type="reset" class="btn btn-secondary">Réinitialiser</button>
+        <button type="submit" class="btn btn-primary">Soumettre le formulaire</button>
+      </div>         
+    </div>
+  </form>
+  </div>            
+</section>
+<footer>
+    <div class="container-fluid pt-5">
+        <div class="row navbarbg">
+            <div class="col-12 text-center">
+                <h6 class="blanc">
+                  Copyright © 2020 Podcast pas d'bas - Tous droits réservés.
+                </h6>
+
+            </div>
+
+        </div>
+
+    </div>
+</footer>    
+</body>
+</html>
