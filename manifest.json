@@ -6,7 +6,7 @@
     "src": "/InterfaceWebProjetFinal/media/icons/48x48.png",
     "sizes": "48x48",
     "type": "image/png",
-    "rpose": "any maskable"
+    "purpose": "any maskable"
     },
     {
     "src": "/InterfaceWebProjetFinal/media/icons/72x72.png",
@@ -48,7 +48,7 @@
     "src": "/InterfaceWebProjetFinal/media/icons/512x512.png",
     "sizes": "512x512",
     "type": "image/png",
-    "rpose": "any maskable"
+    "purpose": "any maskable"
         }
     ],
     "start_url": "index.html",
