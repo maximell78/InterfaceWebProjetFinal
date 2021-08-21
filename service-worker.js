@@ -1,5 +1,5 @@
 //Update cache names any time any of the cached files change.
-const CACHE_NAME = 'static-cache-v3.1';
+const CACHE_NAME = 'static-cache-v4';
 
 self.addEventListener('activate', (evt) => {
    console.log('[ServiceWorker] Activate');
