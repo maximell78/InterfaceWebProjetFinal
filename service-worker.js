@@ -23,7 +23,6 @@ self.addEventListener('activate', (evt) => {
 const FILES_TO_CACHE = [
     'offline.html',
     'bieres.html',
-    'contact.html',
     'critiques.html',
     'index.html',
     'merci.html'
