@@ -25,7 +25,8 @@ const FILES_TO_CACHE = [
     'bieres.html',
     'critiques.html',
     'index.html',
-    'merci.html'
+    'merci.html',
+    'contact.html'
  ];
  
  
