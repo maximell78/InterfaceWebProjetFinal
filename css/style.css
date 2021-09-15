@@ -54,9 +54,9 @@
     transition: 0.3s;
     width: 40%;
     border-radius: 5px;
-  }
-  
-  .card:hover {
+}
+
+.card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
@@ -65,9 +65,9 @@
     transition: 0.3s;
     width: 40%;
     border-radius: 5px;
-  }
-  
-  .card2:hover {
+}
+
+.card2:hover {
     box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
 }
 
@@ -125,7 +125,7 @@
 
 .pt-12 {
     padding-top: 12rem !important;
-  }
+}
 
 .fabLogo{
     width: 200px;
@@ -208,9 +208,9 @@
     background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     background-clip: text;
     -webkit-background-clip: text;
-  }
+}
 
-  .fa-youtube-square {
+.fa-youtube-square {
     color: #bb0000;
     background-color: white;
 }
@@ -220,12 +220,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:900i');
 
 * {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
 .wrapper {
-  display: flex;
-  justify-content: center;
+display: flex;
+justify-content: center;
 }
 
 .cta {
@@ -242,7 +242,7 @@
 }
 
 .cta:focus {
-   outline: none; 
+outline: none; 
 }
 
 .cta:hover {
@@ -260,17 +260,17 @@
     margin-right: 45px;
 }
 
-  span {
+span {
     transform: skewX(15deg) 
-  }
+}
 
-  span:nth-child(2) {
+span:nth-child(2) {
     width: 20px;
     margin-left: 30px;
     position: relative;
     top: 12%;
-  }
-  
+}
+
 /**************SVG****************/
 
 path.one {
